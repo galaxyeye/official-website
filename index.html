@@ -180,7 +180,7 @@ from load_out_pages('https://www.amazon.com/b?node=3117954011', 'a[href~=/dp/]',
             <b>零干预将网站还原为数据</b>
           </p>
           <p>
-            给定入口链接，柏拉图 AI 识别、浏览并解读最重要的链出页，输出>全部</b>字段：
+            给定入口链接，柏拉图 AI 识别、浏览并解读最重要的链出页，输出<b>全部</b>字段：
           </p>
 
           <pre><code class="language-sql">select * from harvest('https://www.amazon.com/b?node=3117954011');</code></pre>
@@ -491,11 +491,13 @@ from load_out_pages('https://www.amazon.com/b?node=3117954011', 'a[href~=/dp/]',
           <div class="card" style='background-image: url("assets/img/more-services-1.jpg");' data-aos="fade-up" data-aos-delay="100">
             <div class="card-body">
               <h5 class="card-title"><a href="">机器学习全部字段</a></h5>
-              <p class="card-text"><pre><code class="language-sql">select
+              <p class="card-text">
+              <pre><code class="language-sql">select
     *
 from
     harvest('https://www.amazon.com/b?node=3117954011')
-</code></pre></p>
+</code></pre>
+              </p>
               <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i> Read More</a></div>
             </div>
           </div>
@@ -1105,7 +1107,7 @@ from load_and_select('https://www.amazon.com/gp/new-releases/home-garden/ref=zg_
             <div class="social-links">
               <a href="https://weibo.com/galaxyeye" title="galaxyeye" class="weibo" target="_blank"><i class="icofont-weibo"></i></a>
               <a href="https://twitter.com/galaxyeye8" title="galaxyeye" class="twitter" target="_blank"><i class="icofont-twitter"></i></a>
-              <a href="#" class="weixin" title="galaxyeye"><i class="icofont-chat" target="_blank"></i></a>
+              <a href="#" class="weixin" title="galaxyeye"><i class="icofont-chat"></i></a>
               <a href="https://github.com/platonai" title="platonai" class="github" target="_blank"><i class="icofont-github"></i></a>
             </div>
           </div>
